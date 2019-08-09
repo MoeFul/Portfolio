@@ -1,4 +1,4 @@
-##Histopathologic Cancer Detection
+# Histopathologic Cancer Detection
 https://www.kaggle.com/c/histopathologic-cancer-detection
 
 This project was presented at the 2019 Cerner Developers Conference by Harlen Hays and Morgan Fuller. We participated in the Kaggle Competition, Histopathologic Cancer Detection and shared our project with an audience of over 250 data scientists, analysts, and engineers within the Cerner community. The goal of the competition was to design and optimize an algorithim that could correctly predict if a histopathologic slide image contained metastatic cancer tissue. The participants were provided with over 250,000 images and their corrosponding cancer tissue label. We were asked to make predictions on 16,000 additional images. We created a convolutional neural network modeled after VGGNet using the Tensorflow and Keras python libraries. Our model was trained on an Nvidia GTX 1080 and took 63 minutes to train.
