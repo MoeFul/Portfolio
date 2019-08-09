@@ -4,17 +4,16 @@ Results:
 
 Classification Report:
 
-                   precision    recall  f1-score   support
+                          precision    recall  f1-score   support
 
- a_no_tumor_tissue       0.96      0.95      0.95      8000
-b_has_tumor_tissue       0.95      0.96      0.95      8000
-
-         micro avg       0.95      0.95      0.95     16000
-         macro avg       0.95      0.95      0.95     16000
-      weighted avg       0.95      0.95      0.95     16000
+    a_no_tumor_tissue        0.96      0.95      0.95      8000
+    b_has_tumor_tissue       0.95      0.96      0.95      8000
+             micro avg       0.95      0.95      0.95     16000
+             macro avg       0.95      0.95      0.95     16000
+          weighted avg       0.95      0.95      0.95     16000
       
-ROC AUC Score: 0.989
 
+ROC AUC Score: 0.989
 
 
 References: 
