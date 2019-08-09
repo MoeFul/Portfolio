@@ -3,7 +3,10 @@ This project was presented at the 2019 Cerner Developers Conference by Harlen Ha
 References: 
 
 Stanford CNN Overview - http://cs231n.github.io/convolutional-networks/ 
+
 Kaggle Public Kernel Referenced - https://www.kaggle.com/vbookshelf/cnn-how-to-use-160-000-images-without-crashing    
+
 Keras Documentation - https://keras.io/
+
 Scikit-learn Confusion Matrix - http://scikit-learn.org/stable/auto_examples/
 
