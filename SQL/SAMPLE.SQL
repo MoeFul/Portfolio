@@ -2,7 +2,7 @@
 
 Description:
 To generate this query I am using a sample database of movie rentals provided from the learning website 
-Udemy (https://www.udemy.com/). The learning course is titled, "The Complete SQL Bootdcamp" by Jose Portillo.
+Udemy (https://www.udemy.com/). The learning course is titled, "The Complete SQL Bootcamp" by Jose Portillo.
 
 This query returns all actors and their average rentral rate for the most popular movies by release year.
 I have utilized table aggregations, common table expressions (CTEs) and sub-querys to accomplish this.)
