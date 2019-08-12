@@ -1,10 +1,11 @@
 /*--------------------------------------------------
 
 Description:
-To generate this query I am using a sample database of movie rentals.
+To generate this query I am using a sample database of movie rentals provided from the learning website 
+Udemy (https://www.udemy.com/). The learning course is titled, "The Complete SQL Bootdcamp" by Jose Portillo.
 
 This query returns all actors and their average rentral rate for the most popular movies by release year.
-I have utilized table aggregations, common table expressions (CTEs) and sub-querys.)
+I have utilized table aggregations, common table expressions (CTEs) and sub-querys to accomplish this.)
 
 Author - Morgan Fuller 
 Date - 08/11/2019
@@ -44,7 +45,7 @@ FROM film_actor as a
 INNER JOIN Best as b 
 ON a.film_id = b.film_id 
 AND a.last_update BETWEEN '2006-01-01' AND '2006-06-01'
---left join a table that contains all actors by their average move rental rate. 
+--left join a table that contains all actors by their average movie rental rate. 
 LEFT JOIN 
 (
 	SELECT c.actor_id
