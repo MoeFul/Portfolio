@@ -40,7 +40,7 @@ SELECT a.actor_id
 		,b.release_year
 		,f.first_name
 		,f.last_name
-		,f.avg_rental_rate
+		,coalesce(f.avg_rental_rate,0)
 FROM film_actor as a 
 INNER JOIN Best as b 
 ON a.film_id = b.film_id 
